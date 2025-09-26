@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/sortAlphabetically"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:showAsAction="never"
+        android:title="Sort Alphabetically A-Z" />
+
+    <item
+        android:id="@+id/sortReverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:showAsAction="never"
+        android:title="Sort Reverse Alphabetically Z-A" />
+
+    <item
+        android:id="@+id/sortDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:showAsAction="never"
+        android:title="Sort By Due Date" />
+
+    <item
+        android:id="@+id/darkModeToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/dark_mode_icon"
+        android:title="darkMode"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/addIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/add_icon"
+        android:title="addButton"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/changeFont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/font_icon"
+        android:title="Change Font"
+        app:showAsAction="always"/>
+</menu>
